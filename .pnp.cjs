@@ -4656,7 +4656,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],\
       ["core-js-pure", [\
         ["npm:3.25.3", {\
-          "packageLocation": "./.yarn/unplugged/core-js-pure-npm-3.25.3-0e8812d518/node_modules/core-js-pure/",\
+          "packageLocation": "./.yarn/cache/core-js-pure-npm-3.25.3-0e8812d518-be3097b8e2.zip/node_modules/core-js-pure/",\
           "packageDependencies": [\
             ["core-js-pure", "npm:3.25.3"]\
           ],\
@@ -9541,14 +9541,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],\
       ["styled-components", [\
         ["npm:5.3.5", {\
-          "packageLocation": "./.yarn/unplugged/styled-components-virtual-59ce36c67c/node_modules/styled-components/",\
+          "packageLocation": "./.yarn/cache/styled-components-npm-5.3.5-88e3937b59-05a664dfe4.zip/node_modules/styled-components/",\
           "packageDependencies": [\
             ["styled-components", "npm:5.3.5"]\
           ],\
           "linkType": "SOFT"\
         }],\
         ["virtual:b202f100435024f8c40e199e8a53bbef821de2a3ac7a76c17948d8337d3394f8f3a8c447e7ed64b0423b6f19aef8a00c9a534225e95f8f34a55e3145f15cc0b2#npm:5.3.5", {\
-          "packageLocation": "./.yarn/unplugged/styled-components-virtual-59ce36c67c/node_modules/styled-components/",\
+          "packageLocation": "./.yarn/__virtual__/styled-components-virtual-59ce36c67c/0/cache/styled-components-npm-5.3.5-88e3937b59-05a664dfe4.zip/node_modules/styled-components/",\
           "packageDependencies": [\
             ["styled-components", "virtual:b202f100435024f8c40e199e8a53bbef821de2a3ac7a76c17948d8337d3394f8f3a8c447e7ed64b0423b6f19aef8a00c9a534225e95f8f34a55e3145f15cc0b2#npm:5.3.5"],\
             ["@babel/helper-module-imports", "npm:7.18.6"],\
