@@ -3,14 +3,14 @@
   "private": true,
   "workspaces": {
     "packages": [
-      "./react-playground/*"
+      "./project/**"
     ]
   },
   "scripts": {
     "prettier": "prettier --write --config ../.prettierrc './src/**/*.{ts,tsx}'",
-    "lint": "eslint ./react-playground/**/src --ext .ts,.tsx",
-    "lint:fix": "eslint --fix ./react-playground/**/src --ext .ts,.tsx",
-    "lint:check": "eslint --fix --max-warnings 0 ./react-playground/**/src --ext .ts,.tsx"
+    "lint": "eslint ./project/**/src --ext .ts,.tsx",
+    "lint:fix": "eslint --fix ./project/**/src --ext .ts,.tsx",
+    "lint:check": "eslint --fix --max-warnings 0 ./project/**/src --ext .ts,.tsx"
   },
   "packageManager": "yarn@3.2.3",
   "devDependencies": {
