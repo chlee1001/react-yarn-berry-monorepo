@@ -30,7 +30,8 @@
   },
   "plugins": ["import", "react", "@typescript-eslint"],
   "rules": {
-    "no-console": "warn",
+    "no-console": 1,
+    "react/jsx-no-useless-fragment": 0,
     "react/function-component-definition": [
       2,
       {
@@ -59,7 +60,7 @@
             "position": "before"
           },
           {
-            "pattern": "{@apis/**,@assets/**,@components/**,@constants/**,@hooks/**,@pages/**,@styles/**,@types/**,@utils/**}",
+            "pattern": "{@apis/**,@assets/**,@components/**,@constants/**,@hooks/**,@pages/**,@styles/**,@_types/**,@utils/**}",
             "group": "unknown",
             "position": "before"
           },
@@ -76,7 +77,8 @@
         "pathGroupsExcludedImportTypes": ["builtin"],
         "newlines-between": "always"
       }
-    ]
+    ],
+    "@typescript-eslint/no-unused-vars": 1
   },
   "ignorePatterns": [
     "paths.js",
