@@ -10,8 +10,8 @@ const Container = styled.div`
   height: 100vh;
 `;
 
-const Home: FC = () => {
+const HomePage: FC = () => {
   return <Container>안녕 난 react monorepo의 샘플 앱이야</Container>;
 };
 
-export default Home;
+export default HomePage;
